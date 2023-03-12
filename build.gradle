@@ -58,11 +58,7 @@ kotlin {
                 implementation kotlin('test')
             }
         }
-        jvmMain {
-            dependencies {
-                compileOnly kotlin('stdlib-jdk8')
-            }
-        }
+        jvmMain {}
         jvmTest {}
         jsMain {}
         jsTest {}
